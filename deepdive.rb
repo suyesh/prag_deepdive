@@ -33,3 +33,10 @@ puts "now is #{ def the(a)
                   end
                   the('time')
                   } for all bad coders...."
+
+#strings and Encoding
+
+plain_string = "dog"
+puts RUBY_VERSION
+
+puts "Encoding of #{plain_string.inspect} is #{plain_string.encoding}"
