@@ -17,4 +17,9 @@ end
 99.downto(95) {|i| print i, " "}
 50.step(80, 5) {|i| print i, " "}
 
+
 #result X X X 1 2 3 4 5 99 98 97 96 95 50 55 60 65 70 75 80
+
+10.downto(7).with_index do |num, index|
+	puts "\n#{index}: #{num}"
+end
