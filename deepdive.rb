@@ -23,3 +23,13 @@ end
 10.downto(7).with_index do |num, index|
 	puts "\n#{index}: #{num}"
 end
+
+#Strings 
+
+#The interpolated strings can be one or more statements. not just expression
+
+puts "now is #{ def the(a) 
+                  'the ' + a
+                  end
+                  the('time')
+                  } for all bad coders...."
