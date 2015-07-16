@@ -39,4 +39,4 @@ puts "now is #{ def the(a)
 plain_string = "dog"
 puts RUBY_VERSION
 
-puts "Encoding of #{plain_string.inspect} is #{plain_string.encoding}"
+puts "Encoding of #{plain_string.inspect} is #{plain_string.encoding}`"
